@@ -8,6 +8,8 @@ let arrSaveImg = new Array; // массив который хранит все �
 const CAT_IMG = 'https://api.thecatapi.com/v1/images/search?size=full';
 const DOG_IMG = 'https://api.thedogapi.com/v1/images/search';
 
+
+
 /* localStorage.clear(); */
 
 loadingDefaultPage();

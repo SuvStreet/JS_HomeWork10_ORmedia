@@ -10,8 +10,6 @@ function resultImg(){
     document.getElementById('positionGridCard').innerHTML = ''; // очищаем миниатюры
     document.getElementById('see').innerHTML = ''; // очищаем большую выбранную картинку
 
-    console.log(arrSaveImg);
-
     if(arrSaveImg.length != 0){
         let x = JSON.parse(localStorage.getItem('test'));
         arrSaveImg.length = 0; // очищаем массив, что бы не создовать копии старых картинок
