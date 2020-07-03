@@ -1,10 +1,6 @@
 ## Ссылка на проект
 
-<<<<<<< HEAD
 # https://suvstreet.github.io/JS_HomeWork10_ORmedia/
-=======
-# https://suvstreet.github.io/JS_HomeWork11_ORmedia/
->>>>>>> bc9e245f15123c3a4b5950adde7d5fd5d0ff665e
 
 **Продолжаем работать с API “thedog api”.**
 
