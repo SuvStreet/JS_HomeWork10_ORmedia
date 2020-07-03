@@ -1,0 +1,242 @@
+.resultInfo .see .voidPicture .cssload-board {
+	position: absolute;
+	left:50%;
+	transform:translate(-50%,-50%);
+		-o-transform:translate(-50%,-50%);
+		-ms-transform:translate(-50%,-50%);
+		-webkit-transform:translate(-50%,-50%);
+		-moz-transform:translate(-50%,-50%);
+	width:244px;
+}
+
+.resultInfo .see .voidPicture .cssload-left,
+.resultInfo .see .voidPicture .cssload-right {
+	height:49px;
+	width:8px;
+	background:rgb(0,0,0);
+	display: inline-block;
+	position:absolute;
+}
+
+.resultInfo .see .voidPicture .cssload-left {
+	left:0;
+	animation: position1 2.3s linear infinite;
+		-o-animation: position1 2.3s linear infinite;
+		-ms-animation: position1 2.3s linear infinite;
+		-webkit-animation: position1 2.3s linear infinite;
+		-moz-animation: position1 2.3s linear infinite;
+}
+.resultInfo .see .voidPicture .cssload-right {
+	right:0;
+	animation: position2 2.3s linear infinite;
+		-o-animation: position2 2.3s linear infinite;
+		-ms-animation: position2 2.3s linear infinite;
+		-webkit-animation: position2 2.3s linear infinite;
+		-moz-animation: position2 2.3s linear infinite;
+}
+.resultInfo .see .voidPicture .cssload-ball,
+.resultInfo .see .voidPicture .cssload-ballhit {
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	background:rgb(0,0,0);
+	position:absolute;
+	animation: bounce 2.3s linear infinite;
+		-o-animation: bounce 2.3s linear infinite;
+		-ms-animation: bounce 2.3s linear infinite;
+		-webkit-animation: bounce 2.3s linear infinite;
+		-moz-animation: bounce 2.3s linear infinite;
+}
+.resultInfo .see .voidPicture .cssload-ballhit {
+	padding:4px;
+	margin:-6px 0 0 -6px;
+	border-radius:50%;
+	background:rgb(255,255,255);
+	border:2px rgb(255,255,255) solid;
+	z-index:-1;
+	animation: bounce2 2.3s linear infinite;
+		-o-animation: bounce2 2.3s linear infinite;
+		-ms-animation: bounce2 2.3s linear infinite;
+		-webkit-animation: bounce2 2.3s linear infinite;
+		-moz-animation: bounce2 2.3s linear infinite;
+}
+
+@keyframes position1 {
+		0% {top:-58px;}
+	25% {top:0;}
+		50% {top:58px;}
+	75% {top:-58px;}
+		100% {top:-58px;}
+}
+
+@-o-keyframes position1 {
+		0% {top:-58px;}
+	25% {top:0;}
+		50% {top:58px;}
+	75% {top:-58px;}
+		100% {top:-58px;}
+}
+
+@-ms-keyframes position1 {
+		0% {top:-58px;}
+	25% {top:0;}
+		50% {top:58px;}
+	75% {top:-58px;}
+		100% {top:-58px;}
+}
+
+@-webkit-keyframes position1 {
+		0% {top:-58px;}
+	25% {top:0;}
+		50% {top:58px;}
+	75% {top:-58px;}
+		100% {top:-58px;}
+}
+
+@-moz-keyframes position1 {
+		0% {top:-58px;}
+	25% {top:0;}
+		50% {top:58px;}
+	75% {top:-58px;}
+		100% {top:-58px;}
+}
+
+@keyframes position2 {
+		0% {top:58px;}
+		25% {top:0;}
+		50% {top:-58px;}
+	 75% {top:-58px;}
+		100% {top:58px;}
+}
+
+@-o-keyframes position2 {
+		0% {top:58px;}
+		25% {top:0;}
+		50% {top:-58px;}
+	 75% {top:-58px;}
+		100% {top:58px;}
+}
+
+@-ms-keyframes position2 {
+		0% {top:58px;}
+		25% {top:0;}
+		50% {top:-58px;}
+	 75% {top:-58px;}
+		100% {top:58px;}
+}
+
+@-webkit-keyframes position2 {
+		0% {top:58px;}
+		25% {top:0;}
+		50% {top:-58px;}
+	 75% {top:-58px;}
+		100% {top:58px;}
+}
+
+@-moz-keyframes position2 {
+		0% {top:58px;}
+		25% {top:0;}
+		50% {top:-58px;}
+	 75% {top:-58px;}
+		100% {top:58px;}
+}
+
+@keyframes bounce {
+		0% {top:-34px;left:10px;}
+	25% {top:24px;left:219px;}
+		50% {top:73px;left:10px;}
+	75% {top:-34px;left:219px;}
+	100% {top:-34px;left:10px;}
+}
+
+@-o-keyframes bounce {
+		0% {top:-34px;left:10px;}
+	25% {top:24px;left:219px;}
+		50% {top:73px;left:10px;}
+	75% {top:-34px;left:219px;}
+	100% {top:-34px;left:10px;}
+}
+
+@-ms-keyframes bounce {
+		0% {top:-34px;left:10px;}
+	25% {top:24px;left:219px;}
+		50% {top:73px;left:10px;}
+	75% {top:-34px;left:219px;}
+	100% {top:-34px;left:10px;}
+}
+
+@-webkit-keyframes bounce {
+		0% {top:-34px;left:10px;}
+	25% {top:24px;left:219px;}
+		50% {top:73px;left:10px;}
+	75% {top:-34px;left:219px;}
+	100% {top:-34px;left:10px;}
+}
+
+@-moz-keyframes bounce {
+		0% {top:-34px;left:10px;}
+	25% {top:24px;left:219px;}
+		50% {top:73px;left:10px;}
+	75% {top:-34px;left:219px;}
+	100% {top:-34px;left:10px;}
+}
+
+@keyframes bounce2 {
+		0% {top:-34px;left:10px; border:2px rgb(255,255,255) solid;}
+	24% {border:2px rgb(255,255,255) solid;}
+	25% {top:24px;left:219px; border:2px rgb(0,0,0) solid;}
+	49% {border:2px rgb(255,255,255) solid;}
+		50% {top:73px;left:10px; border:2px rgb(0,0,0) solid;}
+	74% {border:2px rgb(255,255,255) solid;}
+	75% {top:-34px;left:219px; border:2px rgb(0,0,0) solid;}
+	99% {border:2px rgb(255,255,255) solid;}
+	100% {top:-34px;left:10px; border:2px rgb(0,0,0) solid;}
+}
+
+@-o-keyframes bounce2 {
+		0% {top:-34px;left:10px; border:2px rgb(255,255,255) solid;}
+	24% {border:2px rgb(255,255,255) solid;}
+	25% {top:24px;left:219px; border:2px rgb(0,0,0) solid;}
+	49% {border:2px rgb(255,255,255) solid;}
+		50% {top:73px;left:10px; border:2px rgb(0,0,0) solid;}
+	74% {border:2px rgb(255,255,255) solid;}
+	75% {top:-34px;left:219px; border:2px rgb(0,0,0) solid;}
+	99% {border:2px rgb(255,255,255) solid;}
+	100% {top:-34px;left:10px; border:2px rgb(0,0,0) solid;}
+}
+
+@-ms-keyframes bounce2 {
+		0% {top:-34px;left:10px; border:2px rgb(255,255,255) solid;}
+	24% {border:2px rgb(255,255,255) solid;}
+	25% {top:24px;left:219px; border:2px rgb(0,0,0) solid;}
+	49% {border:2px rgb(255,255,255) solid;}
+		50% {top:73px;left:10px; border:2px rgb(0,0,0) solid;}
+	74% {border:2px rgb(255,255,255) solid;}
+	75% {top:-34px;left:219px; border:2px rgb(0,0,0) solid;}
+	99% {border:2px rgb(255,255,255) solid;}
+	100% {top:-34px;left:10px; border:2px rgb(0,0,0) solid;}
+}
+
+@-webkit-keyframes bounce2 {
+		0% {top:-34px;left:10px; border:2px rgb(255,255,255) solid;}
+	24% {border:2px rgb(255,255,255) solid;}
+	25% {top:24px;left:219px; border:2px rgb(0,0,0) solid;}
+	49% {border:2px rgb(255,255,255) solid;}
+		50% {top:73px;left:10px; border:2px rgb(0,0,0) solid;}
+	74% {border:2px rgb(255,255,255) solid;}
+	75% {top:-34px;left:219px; border:2px rgb(0,0,0) solid;}
+	99% {border:2px rgb(255,255,255) solid;}
+	100% {top:-34px;left:10px; border:2px rgb(0,0,0) solid;}
+}
+
+@-moz-keyframes bounce2 {
+		0% {top:-34px;left:10px; border:2px rgb(255,255,255) solid;}
+	24% {border:2px rgb(255,255,255) solid;}
+	25% {top:24px;left:219px; border:2px rgb(0,0,0) solid;}
+	49% {border:2px rgb(255,255,255) solid;}
+		50% {top:73px;left:10px; border:2px rgb(0,0,0) solid;}
+	74% {border:2px rgb(255,255,255) solid;}
+	75% {top:-34px;left:219px; border:2px rgb(0,0,0) solid;}
+	99% {border:2px rgb(255,255,255) solid;}
+	100% {top:-34px;left:10px; border:2px rgb(0,0,0) solid;}
+}
